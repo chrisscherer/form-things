@@ -1,0 +1,38 @@
+<div class="container">
+  <h1>Welcome to Sinatra!</h1>
+  <p>Hello, world!</p>
+<h3>Form 1</h3>
+  <form action='/cool_url' method='post'>
+    <input type='text' name='user_input'>
+    <input type='submit' value='Submit'>
+  </form>
+
+<h3>Form 2</h3>
+  <form action='/cool_url' method="post">
+    <input type="text" placeholder='Title' name="hash[title]">
+    <input type="text" placeholder='Price' name="post[price]">
+    <textarea name="post[description]"></textarea>
+    <label>Cool Anime</label>
+    <select>
+      <optgroup>
+        <option>Attack on Titan</option>
+      </optgroup>
+      <optgroup>
+        <option>Golden Time</option>
+      </optgroup>
+      <optgroup>
+        <option>Persona 4</option>
+      </optgroup>
+      <optgroup>
+        <option>Hellsing</option>
+      </optgroup>
+    </select><br>
+    <input type='checkbox' name='hash[opt2]' value='something'>Something<br>
+    <input type='checkbox' name='hash[opt2]' value='else'>Else<br>
+    <input type='checkbox' name='hash[opt2]' value='more'>More<br>
+    <input type='radio' name='hash[opt4]' value='more' align='top'>here<br>
+    <input type='radio' name='hash[opt4]' value='more' align='bottom'>there<br>
+    <input type='radio' name='hash[opt4]' value='more' align='absmiddle'>WHAJSFJKL<br>
+    <textarea rows='4' cols='50' name='table'></textarea>
+    <input type='submit' value='Submit'>
+</div>
